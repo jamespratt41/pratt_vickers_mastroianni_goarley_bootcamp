@@ -1,0 +1,43 @@
+#mainFooter {
+  display: flex;
+  flex-direction: column;
+  background-color: #F2F2F2; }
+
+#footerNav {
+  display: none; }
+
+#mainFooter a {
+  color: #666;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 20px;
+  padding-top: 20px; }
+
+#socialIcons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 20px; }
+
+#socialIcons img {
+  width: 40px;
+  height: 40px; }
+
+#backTop {
+  height: 30px;
+  width: 50px;
+  display: flex; }
+
+#socialIcons img:hover {
+  cursor: pointer;
+  opacity: 0.8; }
+
+#mainFooter p {
+  color: #666;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  margin-bottom: 10px; }
+
+.hidden {
+  display: none; }
+
+/*# sourceMappingURL=main.css.map */
