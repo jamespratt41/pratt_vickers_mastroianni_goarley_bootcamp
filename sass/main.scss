@@ -5,7 +5,7 @@
 @import "footer";
 @import "fonts_colours";
 
-
+@media only screen and (min-width: 320px){
 /* General rules - scales images, videos to size of container */
 .hidden{
 	display: none;
@@ -34,3 +34,26 @@ a:link{
 *::before,
 *::after {
   box-sizing: inherit; }
+
+
+
+#pageIntro picture{
+	width: 100%;
+}
+
+#imageText{
+	position: absolute;
+	text-align: center;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+	font-family: 'Roboto', sans-serif;
+	font-weight: bolder;
+	width: 100%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 24px;
+	color: rgb(211, 198, 24);
+}
+
+}

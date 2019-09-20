@@ -2,15 +2,61 @@
 @media only screen and (min-width: 960px) {
 
 // GENERAL CHANGES DUE TO SIZE 
-   
+   #button{
+       display: none;
+   }
+
+   #burgerMenu{
+       display: flex;
+   }
+
+   #burgerCon{
+       display: flex;
+   }
+
+   #socialIcons{
+       width: 50%;
+   }
+
+   #imageText{
+        top: 30%;
+        font-size: 54px;
+   }
 
 // HOME PAGE STARTS HERE 
+    .contentText{
+        float: left;
+        width: 50%;
+        padding: 20px;
+    }
 
+    #contentBox:after{
+        content: "";
+        display: table;
+        clear: both;
+    }
 
+    .line{
+        display: none;
+    }
 // ABOUT PAGE STARTS HERE 
 
 
 // CONTACT PAGE STARTS HERE 
+#contactCon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    #address{
+        width: 50%;
+    }
+
+    #contact{
+        width: 50%;
+    }
+}
+
 
 
 // PORTFOLIO PAGE STARTS HERE 
