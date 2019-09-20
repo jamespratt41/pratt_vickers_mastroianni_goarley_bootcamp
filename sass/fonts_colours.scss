@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+/* FONTS
+font-family: 'Roboto', sans-serif;
+font-family: 'Merriweather', serif;
+*/
+
+$primary-color: #333;
+
+
+body{
+	background-color: #fff;
+	text-align: center;
+	font-family: 'Merriweather', serif;
+}
+
+a{
+	text-decoration: none;
+	border: none;
+	color: #fff;
+}
+
+h2{
+	font-family: 'Roboto', sans-serif;
+	color: #d8ae58;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: left;
+	margin-bottom: 20px
+}
+
+h3{
+	font-family: 'Roboto', sans-serif;
+	font-size: 22px;
+	color: #9abd4e;
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+h4{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #bacc81;
+}
+
+p{
+	font-family: 'Merriweather', serif;
+	text-align: left;
+	color: #666;
+	font-size: 14px;
+	margin-bottom: 20px;
+	line-height: 1.25em;
+
+
+}
+
+ul{
+	text-decoration: none;
+	border: none;
+	list-style: none;
+}

@@ -1,0 +1,36 @@
+@import "mobile";
+@import "tablet";
+@import "desktop";
+@import "nav";
+@import "footer";
+@import "fonts_colours";
+
+
+/* General rules - scales images, videos to size of container */
+.hidden{
+	display: none;
+}
+img, embed, object, video {
+    max-width: 100%; 
+}
+
+html {
+    box-sizing: border-box; 
+}
+
+
+a:visited{
+	text-decoration: none;
+	border: none;
+	color: #fff;
+}
+a:link{
+	text-decoration: none;
+	border: none;
+	color: #fff;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
