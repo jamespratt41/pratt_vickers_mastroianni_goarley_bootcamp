@@ -19,8 +19,59 @@ img{
 	min-width: 320px;
 }
 
-// #smallContainer{
-// 	margin: 0 auto;
-// 	max-width: 280px;
-// }
+#smallContainer{
+	margin-left: 20px;
+	margin-right: 20px;
+}
 
+.line{
+	background-color: #329efa;
+	height: 1px;
+	margin-bottom: 20px;
+}
+
+// CONTACT PAGE 
+
+#map{
+	height: 200px;
+	width: 300px;
+	display: flex;
+	flex-direction: column;
+}
+
+#contactForm{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-bottom: 20px;
+}
+
+#contactForm input{
+	border-radius: 5px;
+	border: none;
+	outline: none;
+	background-color: #329efa;
+	text-align: center;
+	font-weight: normal;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.25em;
+	color: #fff;
+	height: 35px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+
+#contactForm input:last-child{
+	font-weight: bold;
+}
+
+.smallInput{
+	width: 45%;
+
+}
+
+.largeInput{
+	width: 100%;
+}

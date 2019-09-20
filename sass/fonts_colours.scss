@@ -17,12 +17,21 @@ body{
 a{
 	text-decoration: none;
 	border: none;
-	color: #333;
+	color: #329efa;
+}
+
+h1{
+	font-family: 'Roboto', sans-serif;
+	color: #fa8c32;
+	font-size: 28px;
+	font-weight: bold;
+	text-align: left;
+	margin-bottom: 20px
 }
 
 h2{
 	font-family: 'Roboto', sans-serif;
-	color: #333;
+	color: #329efa;
 	font-size: 24px;
 	font-weight: bold;
 	text-align: left;
@@ -47,9 +56,9 @@ p{
 	font-family: 'Merriweather', serif;
 	text-align: left;
 	color: #666;
-	font-size: 14px;
+	font-size: 16px;
 	margin-bottom: 20px;
-	line-height: 1.25em;
+	line-height: 2em;
 
 
 }
