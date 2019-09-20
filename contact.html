@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<!-- very important to include this tag, set the site size to equal the device width -->
+	<meta name="viewport" content="initial-scale=1.0, width=device-width">
+	<title>Modern Link Media</title>
+	<link href="css/reset.css" rel="stylesheet" type="text/css">
+	<link href="css/main.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather%7CRoboto" rel="stylesheet">
+</head>
+
+<body id="mainContainer">
+
+	<h1 class="hidden">Modern Link Media</h1> 
+
+	<main>
+
+		<div id="mainHeader">
+			<a href="index.html" id="logo"><img class="logoImg" src="images/modern_link_logo.svg" alt="Modern Link Media Logo"></a>
+			<nav id="mainNav">
+				<h2 class="hidden">Main Navigation</h2>
+				<div id="burgerCon">
+					<ul id="burgerMenu">
+						<li><a href="index.html">HOME</a></li>
+						<li><a href="about.html">ABOUT</a></li>
+						<li><a href="portfolio.html">PORTFOLIO</a></li>
+						<li><a href="contact.html">CONTACT</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		
+		<div id="pageIntro">
+            <img src="images/about_hero.jpg" alt="hero image">
+		</div>
+		<!-- this is where all the information will go -->
+		<div id="contactCon">
+            <h2>Lets Talk</h2>
+
+            <div id="address">
+                <p>Modern Link Media<br>123 Dundas Street<br>London, Ontario<br>N6A 1E8</p>
+                <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2918.7733664437774!2d-81.25331288452385!3d42.98304747914996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882ef21d77413e31%3A0x3d24ee1d8245c090!2s123%20Dundas%20St%2C%20London%2C%20ON%20N6A%201E8!5e0!3m2!1sen!2sca!4v1568944795856!5m2!1sen!2sca" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+            
+            <div id="contact">
+                <form id="contactForm" action="#">
+                    <input class="smallInput" type="text" name="firstName" placeholder="First Name">
+                    <input class="smallInput" type="text" name="lastName" placeholder="Last Name">
+                    <input class="smallInput" type="text" name="address" placeholder="Address">
+                    <input class="smallInput" type="text" name="city" placeholder="City">
+                    <input class="smallInput" type="text" name="province" placeholder="Province">
+                    <input class="smallInput" type="text" name="country" placeholder="Country">
+                    <input class="smallInput" type="text" name="postalCode" placeholder="Postal Code">
+                    <input class="smallInput" type="submit" name="Submit">
+                </form>
+            </div>
+		</div> 
+        
+       
+
+
+		<footer id="mainFooter">
+			<ul id="footerNav">
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="about.html">ABOUT</a></li>
+				<li><a href="portfolio.html">PORTFOLIO</a></li>
+				<li><a href="contact.html">CONTACT</a></li>
+			</ul>
+
+			<a href="#top" id="backTop"><img src="images/back_to_top.svg" alt="Back To Top"></a>
+			<div id="socialIcons">
+			  <img src="images/twitter.svg" alt="twitter">
+			  <img src="images/facebook.svg" alt="facebook">
+			  <img src="images/instagram.svg" alt="instagram">
+			</div>
+			<p>All rights reserved by Modern Link Media®</p>
+		</footer>
+	</main>
+	<script src="js/main.js"></script>
+</body>
+</html>

@@ -11,13 +11,62 @@ img {
   margin: 0 auto;
   min-width: 320px; }
 
+#smallContainer {
+  margin-left: 20px;
+  margin-right: 20px; }
+
+.line {
+  background-color: #329efa;
+  height: 1px;
+  margin-bottom: 20px; }
+
+#map {
+  height: 200px;
+  width: 300px;
+  display: flex;
+  flex-direction: column; }
+
+#contactForm {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 20px; }
+
+#contactForm input {
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: #329efa;
+  text-align: center;
+  font-weight: normal;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.25em;
+  color: #fff;
+  height: 35px;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+#contactForm input:last-child {
+  font-weight: bold; }
+
+.smallInput {
+  width: 45%; }
+
+.largeInput {
+  width: 100%; }
+
 /* TABLET */
+@media only screen and (min-width: 600px) {
+  .contactCon {
+    display: flex;
+    flex-direction: row; } }
 /* DESKTOP */
 #mainHeader {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
   padding-top: 20px;
   background-color: #F2F2F2; }
 
@@ -58,13 +107,18 @@ img {
   width: 35%; }
 
 #burgerCon {
-  display: none;
   outline: none; }
 
 #burgerCon.slideToggle {
   display: block;
   margin-bottom: 10px;
   outline: none; }
+
+#mainNav ul li a {
+  display: block;
+  padding: 10px 0 10px 0;
+  text-align: center;
+  color: #333; }
 
 #mainFooter {
   display: flex;
@@ -105,9 +159,6 @@ img {
   text-align: center;
   margin-bottom: 10px; }
 
-.hidden {
-  display: none; }
-
 /* FONTS
 font-family: 'Roboto', sans-serif;
 font-family: 'Merriweather', serif;
@@ -120,11 +171,19 @@ body {
 a {
   text-decoration: none;
   border: none;
-  color: #333; }
+  color: #329efa; }
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  color: #fa8c32;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 20px; }
 
 h2 {
   font-family: 'Roboto', sans-serif;
-  color: #333;
+  color: #329efa;
   font-size: 24px;
   font-weight: bold;
   text-align: left;
@@ -146,9 +205,9 @@ p {
   font-family: 'Merriweather', serif;
   text-align: left;
   color: #666;
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 20px;
-  line-height: 1.25em; }
+  line-height: 2em; }
 
 ul {
   text-decoration: none;
