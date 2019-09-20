@@ -76,12 +76,13 @@
   #burgerCon {
     display: flex; }
 
-  #socialIcons {
-    width: 50%; }
-
   #imageText {
     top: 30%;
     font-size: 54px; }
+
+  #footerNav {
+    display: flex;
+    flex-direction: row; }
 
   .contentText {
     float: left;
@@ -167,45 +168,46 @@
     padding: 10px 0 10px 0;
     text-align: center;
     color: #333; } }
-@media only screen and (min-width: 320px) {
-  #mainFooter {
-    display: flex;
-    flex-direction: column;
-    background-color: #F2F2F2; }
+#mainFooter {
+  display: flex;
+  flex-direction: column;
+  background-color: #F2F2F2; }
 
-  #footerNav {
-    display: none; }
+#footerNav {
+  display: none; }
 
-  #mainFooter a {
-    color: #666;
-    font-family: 'Roboto', sans-serif;
-    margin-bottom: 20px;
-    padding-top: 20px; }
+#mainFooter a {
+  color: #666;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 20px;
+  padding-top: 20px; }
 
-  #socialIcons {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-bottom: 20px; }
+#socialIcons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  width: 50%; }
 
-  #socialIcons img {
-    width: 40px;
-    height: 40px; }
+#socialIcons img {
+  width: 40px;
+  height: 40px; }
 
-  #backTop {
-    height: 30px;
-    width: 50px;
-    display: flex; }
+#backTop {
+  height: 30px;
+  width: 50px;
+  display: flex; }
 
-  #socialIcons img:hover {
-    cursor: pointer;
-    opacity: 0.8; }
+#socialIcons img:hover {
+  cursor: pointer;
+  opacity: 0.8; }
 
-  #mainFooter p {
-    color: #666;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    margin-bottom: 10px; } }
+#mainFooter p {
+  color: #666;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  margin-bottom: 10px; }
+
 /* FONTS
 font-family: 'Roboto', sans-serif;
 font-family: 'Merriweather', serif;

@@ -14,14 +14,15 @@
        display: flex;
    }
 
-   #socialIcons{
-       width: 50%;
-   }
-
    #imageText{
         top: 30%;
         font-size: 54px;
    }
+
+   #footerNav{
+    display: flex;
+    flex-direction: row;
+    }
 
 // HOME PAGE STARTS HERE 
     .contentText{
