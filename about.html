@@ -21,14 +21,16 @@
 			<nav id="mainNav">
 				<h2 class="hidden">Main Navigation</h2>
 				<div id="burgerCon">
-					<ul id="burgerMenu">
-						<li><a href="index.html">HOME</a></li>
-						<li><a href="about.html">ABOUT</a></li>
-						<li><a href="portfolio.html">PORTFOLIO</a></li>
-						<li><a href="contact.html">CONTACT</a></li>
-					</ul>
+					<button id="button"></button>
+						<ul id="burgerMenu">
+							
+							<li><a href="index.html">HOME</a></li>
+							<li><a href="about.html">ABOUT</a></li>
+							<li><a href="portfolio.html">PORTFOLIO</a></li>
+							<li><a href="contact.html">CONTACT</a></li>
+						</ul>
 				</div>
-				<button id="button"></button>
+				
 			</nav>
 		</div>
 
@@ -46,17 +48,32 @@
 			</div>
 			
 			<div id="teamAbout">
-				<div id="adamBio">
-					<img src="images/adam.jpg" alt=" headshot of Adam Goarley">
-					<h2>Adam Goarley</h2>
-					<p>Adam's our content guy. Whether it's new photos for a client’s website or a full blown company video he is our guy. If he isnt holding his camera he's shaking a happy clients hand.</p>
-					<img src="images/lucas.jpg" alt=" headshot of Lucas Mastroianni">
-					<h2>Lucas Mastroianni</h2>
-					<p>Lucas is one of our front-end developers and our crafty copywriter. Brochures, catalogs, and yup…the dreadful emails…. He takes care of it all. On top of that, he has written several radio skits for companies and has done some writing for commercials as well.</p> 
-					<img src="images/graham.jpg" alt=" headshot of Graham Vickers">
-					<h2>Graham Vickers</h2>
-					<p>Graham is our Project Manager and the tech guru around the office. When he's not managing projects and meeting with new clients,  he can be found helping out the team with bugs in the code or making product designs</p>
+
+				<img id="adamImg" src="images/adam.png" alt=" headshot of Adam Goarley">
+				<img id="lucasImg" src="images/lucas.png" alt=" headshot of Lucas Mastroianni">
+				<img id="grahamImg" src="images/graham.png" alt=" headshot of Graham Vickers">
+				<img id="jamesImg" src="images/james.png" alt=" headshot of James Pratt">
+				
+				<div id="adam">
+						<h2>Adam Goarley</h2>
+						<p>Adam's our content guy. Whether it's new photos for a client’s website or a full blown company video he is our guy. If he isnt holding his camera he's shaking a happy clients hand.</p>
 				</div>
+				
+				<div id="lucas">
+						<h2>Lucas Mastroianni</h2>
+						<p>Lucas is one of our front-end developers and our crafty copywriter. Brochures, catalogs, and yup…the dreadful emails…. He takes care of it all. On top of that, he has written several radio skits for companies and has done some writing for commercials as well.</p> 	
+				</div>	
+
+				<div id="graham">
+						<h2>Graham Vickers</h2>
+						<p>Graham is our Project Manager and the tech guru around the office. When he's not managing projects and meeting with new clients,  he can be found helping out the team with bugs in the code or making product designs</p>		
+				</div>
+
+				<div id="james">
+					<h2>James Pratt</h2>
+					<p>Ranging from game development, server repair to PC building, James is a hands on, head first type of developer. With a focus on back-end development, you can count on James to find a solution to any of your problems!</p>
+				</div>
+				
 			</div>
 		</div>
 
@@ -87,5 +104,6 @@
 		</footer>
 	</main>
 	<script src="js/main.js"></script>
+	<script src="js/about.js"></script>
 </body>
 </html>
