@@ -1,1 +1,3 @@
-# pratt_vickers_mastroianni_goarley_bootcamp
+# Modernlink Media Website Build
+
+### By: Graham Vickers, James Pratt, Lucas Mastroianni, and Adam Goarley
