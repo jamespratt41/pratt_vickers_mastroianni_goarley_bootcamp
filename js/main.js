@@ -1,14 +1,12 @@
 // JavaScript Document
+(() => {
+    console.log("Linked up");
 
-console.log("Linked up");
-
-(function(){
-
-    console.log("SEAF Fired");
+    // console.log("SEAF Fired");
     
     // save shortcut to button in DOM
     var button = document.querySelector("button");
-    var burgerCon = document.querySelector("#burgerCon");
+    var burgerCon = document.querySelector("#burgerMenu");
     
     function hamburgerMenu() {
         console.log("Click Worked")

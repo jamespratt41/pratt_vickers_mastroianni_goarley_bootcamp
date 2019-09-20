@@ -30,14 +30,7 @@
 		outline: none;
 	}
 
-	// #burgerMenu{
-	// 	display: flex;
-	// 	flex-direction: row;
-	// 	justify-content: space-between;
-	// 	padding-bottom: 20px;
-	// 	padding-top: 20px;
-	// 	background-color: #F2F2F2;
-	// }
+
 
 
 
@@ -61,11 +54,15 @@
 	}
 
 	#burgerCon{
-		// display: none;
+		display: none;
 		outline: none;
 	}
 
-	#burgerCon.slideToggle{
+	#burgerMenu{
+		display none;
+	}
+
+	#burgerMenu.slideToggle{
 		display: block;
 		margin-bottom: 10px;
 		outline: none;
