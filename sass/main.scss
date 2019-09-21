@@ -1,9 +1,10 @@
-@import "mobile";
-@import "tablet";
-@import "desktop";
 @import "nav";
 @import "footer";
 @import "fonts_colours";
+@import "mobile";
+@import "tablet";
+@import "desktop";
+
 
 @media only screen and (min-width: 320px){
 /* General rules - scales images, videos to size of container */
