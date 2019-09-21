@@ -1,7 +1,11 @@
 /* DESKTOP */
 @media only screen and (min-width: 960px) {
 
-// GENERAL CHANGES DUE TO SIZE 
+// GENERAL CHANGES DUE TO SIZE
+    #logo{
+        width: 300px;
+        margin-left: 5%;
+    }
    #button{
        display: none;
    }
@@ -16,29 +20,59 @@
    }
 
    #socialIcons{
-       width: 50%;
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+   }
+
+   #socialIcons img{
+    margin-right: 20px;
+    margin-left: 20px;
    }
 
    #imageText{
         top: 30%;
-        font-size: 54px;
+        font-size: 60px;
    }
 
 // HOME PAGE STARTS HERE 
-    .contentText{
-        float: left;
-        width: 50%;
-        padding: 20px;
+
+//    float wont let the items line up properly in this setup, needs to be fixed
+
+    // .contentText{
+    //     float: left;
+    //     width: 50%;
+    // }
+
+    // #contentBox:after{
+    //     content: "";
+    //     display: table;
+    //     clear: both;
+    // }
+
+    // .line{
+    //     display: none;
+    // }
+
+    // .contentText{
+    //     width: 75%;
+    //     justify-content: space-around
+    // }
+
+    // .line{
+    //     width: 75%;
+    //     justify-content: center;
+    // }
+    a{
+        font-size: 18px;
     }
 
-    #contentBox:after{
-        content: "";
-        display: table;
-        clear: both;
+    #mainNav ul li a{
+        margin-top: 30px;
     }
 
-    .line{
-        display: none;
+    #mainNav{
+        margin-right: 5%;
     }
 // ABOUT PAGE STARTS HERE 
 
@@ -66,21 +100,51 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 40px;
 
     #address{
-        width: 50%;
+        width: 45%;
     }
 
     #contact{
-        width: 50%;
+        width: 45%;
     }
 }
 
+#map{
+    width: 80%;
+    height: 300px;
+}
+
+#contactForm input{
+	border-radius: 5px;
+	border: none;
+	outline: none;
+	background-color: #329efa;
+	text-align: center;
+	font-weight: normal;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.25em;
+	color: #fff;
+	height: 40px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
 
 
 // PORTFOLIO PAGE STARTS HERE 
+.project{
+	width: 33%;
+}
 
+.projectLogo:hover{
+    width: 160px;
+    cursor: pointer;
+}
 
+.project h2 h3{
+	text-align: center;
+}
 // FEATURE PAGE STARTS HERE 
 
 }

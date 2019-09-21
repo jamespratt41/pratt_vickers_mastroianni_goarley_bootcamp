@@ -41,11 +41,12 @@
 
 	#mainNav a {
 	/* display: inline-block; */
-	text-decoration:none
+		text-decoration:none;
+	
 	}
 
 	#mainNav a:after {
-		color: #d8ae58;
+		color: #fa8c32;
 		content: "";
 		display: block;
 		width: 0;
@@ -55,7 +56,7 @@
 	}
 
 	#mainNav a:hover:after {
-		width: 35%;
+		width: 100%;
 	}
 
 	#burgerCon{
@@ -75,9 +76,10 @@
 
 	#mainNav ul li a{
 		display: block;
-		padding: 10px 0 10px 0;
-		text-align: center;
-		color: #333;
+		margin: 10px 20px 10px 20px;
+		text-align: right;
+		color: #329efa;
+		justify-content: center;
 	}
 
 }
