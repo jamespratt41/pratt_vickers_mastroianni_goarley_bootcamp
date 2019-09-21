@@ -1,4 +1,162 @@
 @media only screen and (min-width: 320px) {
+
+  #burgerMenu {
+    display: none;
+  }
+
+  img {
+    border-radius: 3px;
+    margin-bottom: 20px;
+  }
+
+  #logo {
+    width: 170px;
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+
+  #mainContainer {
+    margin: 0 auto;
+    min-width: 320px;
+  }
+
+  #smallContainer {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  #contactCon {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .line {
+    background-color: #329efa;
+    height: 1px;
+    margin-bottom: 20px;
+  }
+
+  #map {
+    height: 200px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #contactForm {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+
+  #contactForm input {
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #329efa;
+    text-align: center;
+    font-weight: normal;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.25em;
+    color: #fff;
+    height: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  #contactForm input:last-child {
+    font-weight: bold;
+  }
+
+  .smallInput {
+    width: 45%;
+  }
+
+  #contactForm input:last-child {
+    font-weight: bold;
+  }
+}
+/* TABLET */
+@media only screen and (min-width: 600px) {
+  .contactCon {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #burgerMenu {
+    display: none;
+  }
+}
+/* DESKTOP */
+@media only screen and (min-width: 960px) {
+  #button {
+    display: none;
+  }
+
+  #burgerMenu {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #burgerCon {
+    display: flex;
+  }
+
+  #imageText {
+    top: 30%;
+    font-size: 54px;
+  }
+
+  #footerNav {
+    display: flex;
+    flex-direction: row; }
+
+  .contentText {
+    float: left;
+    width: 50%;
+    padding: 20px;
+  }
+
+  #contentBox:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .line {
+    display: none;
+  }
+
+  #teamAbout div {
+    display: none;
+  }
+
+  #teamAbout img {
+    transition: all 0.2s ease-in-out;
+    margin: 5px;
+    margin-bottom: 30px;
+  }
+
+  #teamAbout img:hover {
+    transform: scale(1.1);
+  }
+
+  #contactCon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  #contactCon #address {
+    width: 50%;
+  }
+  #contactCon #contact {
+    width: 50%;
+  }
+}
+@media only screen and (min-width: 320px) {
+
   #mainHeader {
     display: flex;
     flex-direction: row;
@@ -54,10 +212,17 @@
 
   #mainNav ul li a {
     display: block;
+
     margin: 10px 20px 10px 20px;
     text-align: right;
     color: #329efa;
-    justify-content: center; } }
+    justify-content: center;  
+
+    padding: 10px 0 10px 0;
+    text-align: center;
+    color: #333; }
+
+}
 @media only screen and (min-width: 320px) {
   #mainFooter {
     display: flex;
@@ -96,7 +261,14 @@
     color: #666;
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    margin-bottom: 10px; } }
+
+   
+
+    margin-bottom: 10px;
+  }
+}
+
+
 /* FONTS
 font-family: 'Roboto', sans-serif;
 font-family: 'Merriweather', serif;
